@@ -1,0 +1,48 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+let g:neocomplete#enable_at_startup = 1
+
+set cpt=.,w,b
+
+set nocompatible
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
+
+" vim-powerline setting
+set laststatus=2
+set nocompatible
+set t_Co=256
+let g:Powerline_symbols = 'unicode'
+
+set transparency=25
+let g:AutoPairsShortcutFastWrap = '..'
+let g:ctrlp_map = ',,'
+let g:ctrlp_open_multiple_files = 'v'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git)$',
+  \ 'file': '\v\.(log|jpg|png|jpeg)$',
+  \ }
+
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+colorscheme zenburn2
+set lines=53 columns=180
+set guifont=Monaco:h17
+set number
+set autoindent
+set smartindent
+set expandtab
+filetype on
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set t_Co=256
+set ignorecase
