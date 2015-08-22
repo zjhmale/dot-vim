@@ -1,4 +1,4 @@
-## setup
+## setup it
 
 ```
 ./setup.sh
