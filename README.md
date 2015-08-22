@@ -3,3 +3,9 @@
 ```
 ./setup.sh
 ```
+
+## backup it
+
+```
+./backup.sh
+```
