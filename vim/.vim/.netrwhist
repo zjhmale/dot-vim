@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/zjh/.vim/bundle'
-let g:netrw_dirhist_2='/Users/zjh/.vim'
-let g:netrw_dirhist_3='/Users/zjh/Documents/pyWorkSpace'
-let g:netrw_dirhist_4='/Users/zjh/Documents/cljWorkspace/cleantha'
-let g:netrw_dirhist_5='/Users/zjh/Documents/pyWorkSpace/prhomework/recoghandwriting/core/semeion/accuracyresult'
