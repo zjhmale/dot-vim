@@ -1,3 +1,4 @@
+rm -rf ~/.vim
 cp -r vim ~/.vim
 cp ./rc/vimrc ~/.vimrc
 cp ./rc/vimrc_shell ~/.vimrc_shell

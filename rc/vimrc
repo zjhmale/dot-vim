@@ -1,3 +1,7 @@
+"can replace whitespace with other character
+set list
+set listchars=trail:>
+
 if has("gui_macvim")
     source ~/.vimrc_macvim
 else
