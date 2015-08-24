@@ -1,6 +1,7 @@
 "can replace whitespace with other character
 set list
-set listchars=trail:>
+set listchars=tab:>-,trail:>
+"set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 if has("gui_macvim")
     source ~/.vimrc_macvim
