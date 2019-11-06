@@ -22,7 +22,7 @@ let g:webdevicons_enable_vimfiler = 1
 let g:NERDTreeWinPos = "left"
 let g:NERDTreeMinimalUI = 1
 let g:NERDTreeDirArrows = 1
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden = 1
 let NERDTreeIgnore = [
     \ '^\.git$',
     \ '^\.DS_Store$',
@@ -31,7 +31,9 @@ let NERDTreeIgnore = [
     \ '\.class$',
     \ '^\.idea',
     \ '^\.pytest_cache',
-    \ '__pycache__'
+    \ '__pycache__',
+    \ '_opam',
+    \ '_build'
     \]
 
 autocmd VimEnter * NERDTree
@@ -48,7 +50,7 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_use_caching = 0
 let g:ctrlp_clear_cache_on_exit = 1
-set wildignore+=*/.pytest_cache/*,*/node_modules/*,_site,*/__pycache__/,*/venv/*,*/target/*,*/.vim$,\~$,*/.log,*/.aux,*/.cls,*/.aux,*/.bbl,*/.blg,*/.fls,*/.fdb*/,*/.toc,*/.out,*/.glo,*/.log,*/.ist,*/.fdb_latexmk
+set wildignore+=*/.pytest_cache/*,*/node_modules/*,_site,*/__pycache__/,*/venv/*,*/target/*,*/.vim$,\~$,*/.log,*/.aux,*/.cls,*/.aux,*/.bbl,*/.blg,*/.fls,*/.fdb*/,*/.toc,*/.out,*/.glo,*/.log,*/.ist,*/.fdb_latexmk,*/_opam/*,*/_build/*
 
 autocmd VimEnter * RainbowParentheses
 autocmd FileType python,rust,cpp,hy SemanticHighlight
