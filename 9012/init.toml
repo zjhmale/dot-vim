@@ -119,3 +119,6 @@ default_height = 30
 
 [[custom_plugins]]
     name = 'tmsvg/pear-tree'
+
+[[custom_plugins]]
+    name = 'ocaml/vim-ocaml'
